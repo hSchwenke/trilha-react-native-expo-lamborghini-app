@@ -10,8 +10,10 @@ export const styles = StyleSheet.create({
   },
   cameraBox: {
     position: "relative",
-    width: 350,
-    height: "90%",
+    width: "90%",
+    maxWidth: 360,
+    height: "92%",
+    maxHeight: 720,
     overflow: "hidden",
     borderWidth: 2,
     borderColor: "#fff",
@@ -26,6 +28,7 @@ export const styles = StyleSheet.create({
     borderTopColor: "#fff",
     borderRightWidth: 20,
     borderRightColor: "transparent",
+    zIndex: 10,
   },
   topRight: {
     top: 0,
