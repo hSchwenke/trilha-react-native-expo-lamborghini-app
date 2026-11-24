@@ -4,3 +4,7 @@ export interface CarModel {
   releaseYear: number;
   price: string;
 }
+
+export interface CardViewProps {
+  initialCarId?: number;
+}
