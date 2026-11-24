@@ -6,7 +6,6 @@ import {
   TouchableOpacity,
   ActivityIndicator,
 } from "react-native";
-import { AntDesign } from "@expo/vector-icons";
 
 import Logo from "../../../assets/logo.png";
 import { styles } from "./style";
@@ -118,7 +117,7 @@ export default function CardView({ initialCarId = 1 }: CardViewProps) {
           activeOpacity={0.7}
           accessibilityLabel="Carro anterior"
         >
-          <AntDesign name="left" size={20} color="#01A6B3" />
+          <Text style={styles.navButtonArrow}>{"<"}</Text>
         </TouchableOpacity>
 
         <View style={styles.priceDetails}>
@@ -134,7 +133,7 @@ export default function CardView({ initialCarId = 1 }: CardViewProps) {
           activeOpacity={0.7}
           accessibilityLabel="Próximo carro"
         >
-          <AntDesign name="right" size={20} color="#01A6B3" />
+          <Text style={styles.navButtonArrow}>{">"}</Text>
         </TouchableOpacity>
       </View>
     );

@@ -1,6 +1,5 @@
 import React from "react";
-import { TouchableOpacity, Text, Alert } from "react-native";
-import { AntDesign } from "@expo/vector-icons";
+import { TouchableOpacity, Text, Alert, View } from "react-native";
 import { styles } from "./style";
 import { CarModel } from "../CardView/props";
 
@@ -37,12 +36,7 @@ export default function BuyButton({ car, onPress }: BuyButtonProps) {
       onPress={handlePress}
       activeOpacity={0.8}
     >
-      <AntDesign
-        name="shoppingcart"
-        size={24}
-        color="white"
-        style={styles.icon}
-      />
+      <Text style={styles.iconText}>🛒</Text>
       <Text style={styles.buttonText}>Buy This</Text>
     </TouchableOpacity>
   );
