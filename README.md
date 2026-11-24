@@ -117,6 +117,7 @@ trilha-react-native-expo-lamborghini-app/
 ## 🛠️ Tecnologias Utilizadas
 
 - **[React Native](https://reactnative.dev/)** (v0.72.6)
+- **[React Native for Web](https://necolas.github.io/react-native-web/)** (v0.19.13)
 - **[Expo](https://expo.dev/)** (v~49.0.15)
 - **[TypeScript](https://www.typescriptlang.org/)** (v^5.1.3)
 - **[Axios](https://axios-http.com/)** (v^1.6.2)
@@ -152,6 +153,7 @@ trilha-react-native-expo-lamborghini-app/
 4. **Abra o aplicativo:**
    - Escaneie o QR Code exibido no terminal pelo app **Expo Go** (Android) ou pela câmera do celular (iOS).
    - Ou pressione `a` para rodar no emulador Android ou `i` para o simulador iOS.
+   - Ou pressione `w` (ou `npm run web`) para rodar diretamente no navegador web.
 
 ---
 
